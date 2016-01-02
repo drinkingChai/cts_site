@@ -4,14 +4,50 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<script type="text/javascript" src="services/angular-min.js"></script>
-		<script type="text/javascript" src="services/angular-route.js"></script>
-		<script type="text/javascript" src="services/bootstrap.js"></script>
+		<script type="text/javascript" src="js/vendor/angular.min.js"></script>
+		<script type="text/javascript" src="js/vendor/angular-route.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 	</head>
 
-	<body>
+	<body ng-app="CTSsite">
 
 
+
+		<div class="menu">
+			<div class="container">
+				<ul class="nav nav-pills">
+					<li><img src="images/logo.png"></li>
+					<li><a href="#/services">Services</a></li>
+					<li><a href="#/clients">Clients</a></li>
+					<li><a href="#/erate">Clients</a></li>
+					<li class="pull-right"><a href="#/contact">Contact Us</a></li>
+					<li class="pull-right"><a href="#/about">About</a></li>
+					<li class="pull-right"><a href="#/about">Free evaluation</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="container">
+				<div ng-view></div>
+			</div>
+		</div>
+
+
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p>Charter Technology Solutions</p>
+						<p>254 36th St Ste C551, Brooklyn, NY 11232</p>
+						<p>Phone: 866.399.3230</p>
+						<p>Fax: 866.399.3230</p>
+						<p>Email: sales@charterts.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -19,12 +55,13 @@
 		<script type="text/javascript" src="js/app.js"></script>
 
 		<!-- Controllers -->
-
+		<script type="text/javascript" src="js/controllers/HomeController.js"></script>
 
 		<!-- Directives -->
 
 
 		<!-- Services -->
+		<script type="text/javascript" src="js/services/main_hl_content.js"></script>
 
 
 	</body>

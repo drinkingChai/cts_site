@@ -1,0 +1,31 @@
+[
+	{
+		"header": "e-rate (education customer)",
+		"list": 
+		[
+			"Leverage technology funding for schools/libraries",
+			"We are a registered E-Rate Services Provider",
+			"We provide guidance on Eligible Services"
+		]
+	},
+	{
+		"header": "network",
+		"list":
+		[
+			"Hassle-free, reliable connectivity",
+			"Speeds up to 400 Mbps",
+			"Circuit redundancy options",
+			"24x7 network monitoring"
+		]
+	},
+	{
+		"header": "managed IT services",
+		"list":
+		[
+			"Custom service and support agreements",
+			"Remote and onsite helpdesk support",
+			"Quarterly Technology Status Reviews",
+			"Technology planning and budgeting"
+		]
+	}
+]
