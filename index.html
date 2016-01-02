@@ -4,6 +4,7 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<script type="text/javascript" src="js/vendor/angular.min.js"></script>
 		<script type="text/javascript" src="js/vendor/angular-route.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -28,11 +29,8 @@
 			</div>
 		</div>
 
-		<div class="main">
-			<div class="container">
-				<div ng-view></div>
-			</div>
-		</div>
+		
+		<div ng-view></div>
 
 
 		<div class="footer">
@@ -58,10 +56,11 @@
 		<script type="text/javascript" src="js/controllers/HomeController.js"></script>
 
 		<!-- Directives -->
+		<script type="text/javascript" src="js/directives/featurePreview.js"></script>
 
 
 		<!-- Services -->
-		<script type="text/javascript" src="js/services/main_hl_content.js"></script>
+		<script type="text/javascript" src="js/services/featurePreviewContent.js"></script>
 
 
 	</body>
