@@ -1,9 +1,29 @@
 .about {
 	text-align: center;
+	max-width: 800px;
+}
+
+.about h2 {
+	margin-bottom: 50px;
+}
+
+.about h5 {
+	font-size: 18px;
+}
+
+.employee {
+	margin-top: 40px;
+}
+
+.blurb {
+	color: #494646;
+}
+
+.about_content {
+	margin-top: 40px;
 }
 
 .ceo_image, .employee_image {
-	width: 200px;
+	width: 150px;
 	border-radius: 100%;
-	-webkit-filter: grayscale(100%);
 }
