@@ -4,6 +4,10 @@
 	"state": "NY",
 	"zip": "11232",
 	"email": "sales@charterts.com",
+	"supportemail": "support@charterts.com",
 	"phone": "866 399 3230",
-	"fax": "866 399 3230"
+	"fax": "866 399 3230",
+	"officeImg": "images/contact/office.png",
+	"salesImg": "images/contact/sales.png",
+	"supportImg": "images/contact/support.png"
 }

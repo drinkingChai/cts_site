@@ -1,0 +1,23 @@
+.contact {
+	max-width: 800px;
+}
+
+.btn_container {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.contact p {
+	margin: 0;
+	padding: 0;
+}
+
+.contact_image {
+	width: 80px;
+	margin: 20px;
+}
+
+.contact .inner {
+	border-radius: 0%;
+	padding: 20px;
+}

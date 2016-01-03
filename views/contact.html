@@ -1,0 +1,35 @@
+<div class="container contact">
+	<div class="btn_container">
+		<a class="btn btn_free_eval" href="#/">Free Evaluation!</a>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+			<div class="inner thumbnail">
+				<img class="contact_image" ng-src="{{data.officeImg}}">
+				<h4>Office</h4>
+				<p>{{data.address}}</p>
+				<p>{{data.city}}</p>
+				<p>{{data.state}}, {{data.zip}}</p>
+				<p><b>Phone:</b> {{data.phone}}</p>
+				<p><b>Fax:</b> {{data.fax}}</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="inner thumbnail">
+				<img class="contact_image" ng-src="{{data.salesImg}}">
+				<h4>Sales</h4>
+				<p>{{data.email}}</p>
+				<p>{{data.phone}}</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="inner thumbnail">
+				<img class="contact_image" ng-src="{{data.supportImg}}">
+				<h4>Support</h4>
+				<p>{{data.supportemail}}</p>
+				<p>{{data.phone}}</p>
+			</div>
+		</div>
+	</div>
+</div>
