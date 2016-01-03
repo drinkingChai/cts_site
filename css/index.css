@@ -1,18 +1,34 @@
 body {
 }
 
+.view {
+	margin: 40px 0;
+}
+
 .footer {
 	color: #fff;
 }
 
 .menu {
-	padding-top: 10px;
-	padding-bottom: 10px;
 	background-color: #0369b7;
 }
 
 .menu a {
 	color: #fff;
+}
+
+.menu img {
+	width: 50px;
+	margin-right: 20px;
+}
+
+.menu ul li a {
+	padding: 20px;
+	border-radius: 0%;
+}
+
+.menu ul li a:hover {
+	background-color: #0089f2;
 }
 
 .footer {

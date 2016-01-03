@@ -1,0 +1,12 @@
+.service_preview {
+	padding: 30px;
+}
+
+.service_preview.btn {
+	/*wraps the word in buttons to override bootstrap*/
+	white-space: normal;
+}
+
+.service_preview .btn_site_default {
+	width: 150px;
+}

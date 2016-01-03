@@ -1,0 +1,42 @@
+{
+	"cef":
+	{
+		"title": "Custom Engagement framework",
+		"descriptionShort": "We have designed Charter Technology Solutions from the ground up to be affordable and accessible to all organizations. So if you are just starting out or already have an existing infrastructure and network in place, we can still fit in and provide cost savings and operational efficiencies."
+	},
+	"mip":
+	{
+		"title": "Managed IT Services",
+		"descriptionShort": "We will work with you to come up with a customized support package, which will uniquely fit your needs depending on the various factors."
+	},
+	"wsolutions":
+	{
+		"title": "Wireless Solutions",
+		"descriptionShort": "Our wireless networks will let you connect each and every computer (Windows or Mac), printers and other mobile devices in your workplace seamlessly."
+	},
+	"network":
+	{
+		"title": "Networking",
+		"descriptionShort": "We have partnered with best in class vendors to provide managed firewall services and 24x7 network monitoring."
+	},
+	"obackup":
+	{
+		"title": "Online backups",
+		"descriptionShort": ""
+	},
+	"internet":
+	{
+		"title": "Internet Connectivity",
+		"descriptionShort": "We have partnered with best in class vendors to provide you with hassle-free connectivity, allowing you get reliable and unlimited internet access"
+	},
+	"office":
+	{
+		"title": "Office Collaboration Package",
+		"descriptionShort": "We can provide secure, anywhere access to email and calendars, Office Web Apps, web conferencing, and file sharing. "
+	},
+	"phone":
+	{
+		"title": "VoIP",
+		"descriptionShort": "With our technology partnerships, you'd be able to leverage voice over IP services and features not generally available to small organizations."
+	}
+}

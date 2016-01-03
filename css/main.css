@@ -5,49 +5,33 @@
 	color: #fff;
 	text-align: center;
 	font-weight: 600;
+	margin-top: -40px;
 }
 
 .intro h1 {
 	margin-top: 0;
-	padding-top: 120px;
+	padding-top: 100px;
 }
 
 .intro a {
 	margin-top: 20px;
 }
 
-.message, .previews, .why_us, .footer {
-	margin-top: 60px;
+.preview {
+	margin-top: 50px;
+	min-height: 250px;
+	text-align: center;
 }
 
-.preview_rows {
+.preview_img {
+	width: 100px;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.feature_preview {
-	display: inline-block;
-	text-transform: capitalize;
-	margin: 20px;
-}
-
-.feature_preview_inner {
-	height: 300px;
-	padding: 40px;
-	position: relative;
-}
-
-.feature_preview_inner .btn_site_default {
-	width: 200px;
-}
-
-.feature_preview ul, .feature_preview_large ul {
-	padding: 0;
-	margin: 0;
-}
-
-.feature_preview li, .feature_preview_large li {
-	list-style-type: none;
+.message, .why_us, .footer {
+	margin-top: 60px;
 }
 
 .why_us {

@@ -1,18 +1,30 @@
-[
+{
+	"erate":
 	{
-		"header": "e-rate (education customer)",
-		"description": "We are a registered E-Rate Services Provider and we leverage technology funding for schools/libraries and provide guidance on Eligible Services"
+		"header": "e-rate",
+		"descriptionShort": "Registered E-Rate Services Provider",
+		"description": "We are a registered E-Rate Services Provider and we leverage technology funding for schools/libraries and provide guidance on Eligible Services",
+		"imageUrl": "images/previews/erate.png"
 	},
+	"network":
 	{
 		"header": "network",
-		"description": "Hassle-free, reliable connectivity with speeds up to 400 Mbps. We provide circuit redundancy options and 24x7 network monitoring"
+		"descriptionShort": "24x7 network monitoring",
+		"description": "Hassle-free, reliable connectivity with speeds up to 400 Mbps. We provide circuit redundancy options and 24x7 network monitoring",
+		"imageUrl": "images/previews/network.png"
 	},
+	"msp":
 	{
 		"header": "managed IT services",
-		"description": "Custom service and support agreements with remote and onsite helpdesk support. We run quarterly Technology Status Reviews and provide technology planning and budgeting"
+		"descriptionShort": "Remote and onsite helpdesk support",
+		"description": "Custom service and support agreements with remote and onsite helpdesk support. We run quarterly Technology Status Reviews and provide technology planning and budgeting",
+		"imageUrl": "images/previews/msp.png"
 	},
+	"backups":
 	{
 		"header": "Backups",
-		"description": "Custom service and support agreements with remote and onsite helpdesk support. We run quarterly Technology Status Reviews and provide technology planning and budgeting"
+		"descriptionShort": "Online cloud backups",
+		"description": "Custom service and support agreements with remote and onsite helpdesk support. We run quarterly Technology Status Reviews and provide technology planning and budgeting",
+		"imageUrl": "images/previews/backup.png"
 	}
-]
+}
