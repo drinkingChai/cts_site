@@ -38,6 +38,7 @@
 	"review":
 	{
 		"abbr": "review",
-		"title": "Write a review"
+		"title": "Write a review",
+		"form": "reviewform"
 	}		
 }
