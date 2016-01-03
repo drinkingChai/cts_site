@@ -1,10 +1,23 @@
 {	
 	"erate":
 	{
-		"title": "e-rate",
+		"abbr": "erate",
+		"title": "E-Rate",
 		"descriptionPreview": "Registered E-Rate Services Provider",
 		"description": "We are a registered E-Rate Services Provider and we leverage technology funding for schools/libraries and provide guidance on Eligible Services",
-		"imageUrl": "images/previews/erate.png"
+		"imageUrl": "images/previews/erate.png",
+		"paras":
+		[
+			{
+				"content": "E-Rate is a federally funded program offered through USAC (Universal Service Administrative Company). Under this program, USAC reimburses costs related to telecommunications, Internet Access and internal connections on eligible products and services required by schools and libraries."
+			},
+			{
+				"content": "Charter Technology Solutions is a registered service provider under the USAC program and its SPIN (Service Provider Identification Number) is 143035558. We have experience providing eligible services and solutions under this program and also appropriately cost-allocating services that are only partially eligible."
+			},
+			{
+				"content": "Once selected via the competitive bidding process, we work closely with the Operations team and/or E-Rate consultants of public, private or charter schools to ensure the Form 471s and Attachment 21 items are filed appropriately with USAC. In addition to the technology plans you develop, the Form 471 and Item 21 attachments ensure maximum funding for your technology needs. Our collaboration with this process will ensure there would be no delays with attaining this funding and that work begins on time for the new academic year."
+			}
+		]
 	},
 	"cef":
 	{
