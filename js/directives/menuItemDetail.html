@@ -1,0 +1,8 @@
+<h2>{{info.title}}</h2>
+<div ng-repeat="para in info.paras">
+	<h4 ng-show="para.header">{{para.header}}</h4>
+	<p>{{para.content}}</p>
+	<ul ng-show="para.type">
+		<li ng-repeat="item in para.listContent">{{item}}</li>
+	</ul>
+</div>

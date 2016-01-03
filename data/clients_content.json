@@ -1,0 +1,43 @@
+{	
+	"testimonials":
+	{
+		"abbr": "testimonials",
+		"title": "Testimonials",
+		"paras":
+		[
+		]
+	},
+	"ourcustomers":
+	{
+		"abbr": "ourcustomers",
+		"title": "Our Customers",
+		"paras":
+		[
+			{
+				"content": "We measure ourselves by the success of our clients, and we won't allow technology to be a hindrance to your success. Aligning ourselves as your strategic business partner, we are committed to providing the best technology solutions and then supporting them with unparalleled customer service."
+			},
+			{
+				"content": "Our customers typically have 20 employees or more, and rely on their computers, networks and custom business applications to work reliably all the time."
+			},
+			{
+				"content": "Charter Technology Solutions currently has experience supporting clients in the Finance and Education fields."
+			}
+		]
+	},
+	"referus":
+	{
+		"abbr": "referus",
+		"title": "Refer Us",
+		"paras":
+		[
+			{
+				"content": "If you know a friend, colleague or family member affiliated with an organization that has technology needs Charter Technology Solutions can fill, refer us. If your lead converts into a service agreement with the prospective client you referred, we will pay you a 10% referral commission towards the first month's dues."
+			}
+		]
+	},
+	"review":
+	{
+		"abbr": "review",
+		"title": "Write a review"
+	}		
+}
