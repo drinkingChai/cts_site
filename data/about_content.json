@@ -42,15 +42,18 @@
 			},
 			{
 				"content": "It is our promise to you that we will engage in ways that serves your interests best. This means that we won't sacrifice quality to make a solution cost effective, and we will always follow industry best practices for technology implementations."
-			},
-			{
-				"content": "As we dabble with various technologies on a day to day basis, we are current on the most effective solution available for your needs. With proactive care for these advance systems and robust support services to back them up, we remain confident that you will turn to us so we could earn your continued business."
 			}
 		]
 	},
 	"employees":
 	[
-		[
+		[	
+			{
+				"name": "Sachin Gujral",
+				"imageUrl": "images/portraits/sachin.jpg",
+				"title": "CEO",
+				"blurb": "..."
+			},
 			{
 				"name": "Scott Battaglia",
 				"title": "Field Service Manager",
@@ -88,15 +91,15 @@
 				"title": "System Engineer",
 				"imageUrl": "images/portraits/gnapolitano.jpg",
 				"blurb": "..."
-			}
-		],
-		[
+			},
 			{
 				"name": "Kenneth Atkins",
 				"title": "Tech Cognoscente",
 				"imageUrl": "images/portraits/katkins.jpg",
 				"blurb": "..."
-			},
+			}
+		],
+		[
 			{
 				"name": "Julio Ferrario",
 				"title": "Systems Analyst",
@@ -108,9 +111,7 @@
 				"title": "Systems Engineer",
 				"imageUrl": "images/portraits/blank.png",
 				"blurb": "..."
-			}
-		],
-		[
+			},
 			{
 				"name": "William Russell",
 				"title": "Systems Engineer",

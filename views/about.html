@@ -1,26 +1,50 @@
 <div class="container about">
-	<h2>Team members</h2>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="about_content">
+				<h4>{{data.whoWeAre.header}}</h4>
+				<hr>
+				<p ng-repeat="para in data.whoWeAre.paras">{{para.content}}</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="about_content">
+				<h4>{{data.ourExpertise.header}}</h4>
+				<hr>
+				<p ng-repeat="para in data.ourExpertise.paras">{{para.content}}</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="about_content">
+				<h4>{{data.whatWeStandFor.header}}</h4>
+				<hr>
+				<p ng-repeat="para in data.whatWeStandFor.paras">{{para.content}}</p>
+			</div>
+		</div>
+	</div>
+	<hr>
 
+	<h2>Team members</h2>
+	<!--
 	<img class="ceo_image" ng-src="{{data.ceo.imageUrl}}">
 	<h5>{{data.ceo.name}}</h5>
 	<h6>{{data.ceo.title}}</h6>
 	<p class="blurb">{{data.ceo.blurb}}</p>
+	-->
 
 	<div class="team_members">
 		<div ng-repeat="row in data.employees" class="row">
-			<div ng-repeat="employee in row" class="col-md-4 employee">
-				<img class="employee_image" ng-src="{{employee.imageUrl}}">
-				<h5>{{employee.name}}</h5>
-				<h6>{{employee.title}}</h6>
-				<p class="blurb">{{employee.blurb}}</p>
+			<div ng-repeat="employee in row" class="col-md-3 employee">
+				<div class="inner thumbnail">
+					<img class="employee_image" ng-src="{{employee.imageUrl}}">
+					<h5>{{employee.name}}</h5>
+					<h6>{{employee.title}}</h6>
+					<p class="blurb">{{employee.blurb}}</p>
+				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="about_content" ng-repeat="message in messages">
-		<h4>{{message.header}}</h4>
-		<hr>
-		<p ng-repeat="para in message.paras">{{para.content}}</p>
 	</div>
 
 </div>
