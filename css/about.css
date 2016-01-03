@@ -1,0 +1,9 @@
+.about {
+	text-align: center;
+}
+
+.ceo_image, .employee_image {
+	width: 200px;
+	border-radius: 100%;
+	-webkit-filter: grayscale(100%);
+}

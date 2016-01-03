@@ -1,0 +1,5 @@
+.review_form input, .review_form textarea, .review_form button {
+	margin-top: 10px;
+	border-radius: 0%;
+	max-width: 600px;
+}

@@ -1,0 +1,22 @@
+<div class="container about">
+	<img class="ceo_image" ng-src="{{data.ceo.imageUrl}}">
+	<h5>{{data.ceo.name}}</h5>
+	<h6>{{data.ceo.title}}</h6>
+	<p>{{data.ceo.blurb}}</p>
+
+	<div class="about_content" ng-repeat="message in messages">
+		<h4>{{message.header}}</h4>
+		<p ng-repeat="para in message.paras">{{para.content}}</p>
+	</div>
+
+	<h2>Team Members</h2>
+	<div ng-repeat="row in data.employees" class="row">
+		<div ng-repeat="employee in row" class="col-md-4">
+			<img class="employee_image" ng-src="{{employee.imageUrl}}">
+			<h5>{{employee.name}}</h5>
+			<h6>{{employee.title}}</h6>
+			<p>{{employee.blurb}}</p>
+		</div>
+	</div>
+
+</div>
