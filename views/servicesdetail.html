@@ -1,0 +1,18 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-3 sidemenu">
+			<a class="btn btn-default" ng-repeat="service in all_services" href="#/services/{{service.abbr}}">{{service.title}}</a>
+		</div>
+
+		<div class="col-md-9 service_content">
+			<h2>{{data.title}}</h2>
+			<div ng-repeat="para in data.paras">
+				<h4 ng-show="para.header">{{para.header}}</h4>
+				<p>{{para.content}}</p>
+				<ul ng-show="para.type">
+					<li ng-repeat="item in para.listContent">{{item}}</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

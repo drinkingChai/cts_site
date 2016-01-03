@@ -13,7 +13,7 @@
 		"description": "Hassle-free, reliable connectivity with speeds up to 400 Mbps. We provide circuit redundancy options and 24x7 network monitoring",
 		"imageUrl": "images/previews/network.png"
 	},
-	"msp":
+	"mip":
 	{
 		"header": "managed IT services",
 		"descriptionShort": "Remote and onsite helpdesk support",

@@ -1,42 +1,155 @@
-{
+{	
+	"erate":
+	{
+		"title": "e-rate",
+		"descriptionPreview": "Registered E-Rate Services Provider",
+		"description": "We are a registered E-Rate Services Provider and we leverage technology funding for schools/libraries and provide guidance on Eligible Services",
+		"imageUrl": "images/previews/erate.png"
+	},
 	"cef":
 	{
-		"title": "Custom Engagement framework",
-		"descriptionShort": "We have designed Charter Technology Solutions from the ground up to be affordable and accessible to all organizations. So if you are just starting out or already have an existing infrastructure and network in place, we can still fit in and provide cost savings and operational efficiencies."
+		"abbr": "cef",
+		"title": "Engagement framework",
+		"descriptionShort": "We have designed Charter Technology Solutions from the ground up to be affordable and accessible to all organizations. So if you are just starting out or already have an existing infrastructure and network in place, we can still fit in and provide cost savings and operational efficiencies.",
+		"paras":
+		[
+			{
+				"content": "We have designed Charter Technology Solutions from the ground up to be affordable and accessible to all organizations. So if you are just starting out or already have an existing infrastructure and network in place, we can still fit in and provide cost savings and operational efficiencies. We work with you to execute the different steps of our managed services framework, so contact us today."
+			},
+			{
+				"header": "Step 1: Identify, define client requirements and understand pain points",
+				"content": "We realize that every organization is unique in many ways and that there is no cookie cutter IT solution that will work for them. Knowing this, we offer a free consultation including analysis and overview of existing technologies and an explanation of recommended solutions and methods of deployment. This consultation will identify where efficiency can be gained (costs that can be cut) and what additional opportunities you may be missing out in with your current technology solutions. The definition of your requirements is done with an eye towards the future, so the right solution can be implemented now, and one that will support your upcoming needs."
+			},
+			{
+				"header": "Step 2: Custom deployment strategy",
+				"content": "The deployment methodology is as unique as the solution itself. During this stage, we lay out project milestones which identify the step-by-step process to introduce new technologies or overhaul existing systems. Work is completed maintaining the highest quality standards, and we communicate frequently our milestone progress. All work is completed in a way that is least disruptive to you operations."
+			},
+			{
+				"header": "Step 3: Support Services",
+				"content": "Once your solution has been engineered and deployed, we introduce and maintain standards to ensure your environment remains stable. Support solutions include telephone and recurring onsite support engineer visits, as well as 24-hour systems monitoring solutions."
+			}
+		]
 	},
 	"mip":
-	{
+	{	
+		"abbr": "mip",
 		"title": "Managed IT Services",
-		"descriptionShort": "We will work with you to come up with a customized support package, which will uniquely fit your needs depending on the various factors."
+		"imageUrl": "images/previews/msp.png",
+		"descriptionPreview": "Remote and onsite helpdesk support",
+		"descriptionShort": "We will work with you to come up with a customized support package, which will uniquely fit your needs depending on the various factors.",
+		"paras":
+		[
+			{
+				"content": "If you are just getting off the ground with your new company or growing your established organization in a rapid manner, hiring a dedicated technology resource still may not be the right choice for you. At Charter Technology solutions, we have the resources and relationships to provide you the optimal solution from running cables in your office to mail integration on your mobile devices. A dedicated technology hire may not buy you such a diverse set of skills."
+			},
+			{
+				"content": "We will work with you to come up with a customized support package, which will uniquely fit your needs depending on the various factors: # of employees, type and extent of implemented technologies, nature of the business, and corporate culture."
+			},
+			{
+				"content": "We usually provide support packages for companies with 20 employees and greater."
+			}
+		]
 	},
 	"wsolutions":
 	{
+		"abbr": "wsolutions",
 		"title": "Wireless Solutions",
-		"descriptionShort": "Our wireless networks will let you connect each and every computer (Windows or Mac), printers and other mobile devices in your workplace seamlessly."
+		"descriptionShort": "Our wireless networks will let you connect each and every computer (Windows or Mac), printers and other mobile devices in your workplace seamlessly.",
+		"paras":
+		[
+			{
+				"content": "Wired networks have their advantages in the office place, but wireless networks have enabled works to collaborate easily since its inception. With so many wireless-enabling devices in the market today, how do you know which one is the right one for you?"
+			},
+			{
+				"content": "Our wireless networks will let you connect each and every computer (Windows or Mac), printers and other mobile devices in your workplace seamlessly. Our engineers ensure the wireless network will operate with minimal interference, and that the signal and coverage will cover your entire location (even if your location spans multiple floors)."
+			}
+		]
 	},
 	"network":
 	{
+		"abbr": "network",
 		"title": "Networking",
-		"descriptionShort": "We have partnered with best in class vendors to provide managed firewall services and 24x7 network monitoring."
+		"imageUrl": "images/previews/network.png",
+		"descriptionPreview": "24x7 network monitoring",
+		"descriptionShort": "We have partnered with best in class vendors to provide managed firewall services and 24x7 network monitoring.",
+		"paras":
+		[
+			{
+				"header": "Cabling",
+				"content": "Once Charter Technology Solutions has provided you with a blueprint of you network design, the first step to get it setup is install reliable cabling in your current location, or new offices. Our insured network engineers will ensure reliable and high quality data and voice cable runs and all the same providing a clean, professional look (cable management)."
+			},
+			{
+				"header": "Network Design, Security and Monitoring",
+				"content": "We design your network with an eye towards the future. As part of our engagement framework, we analyze your current needs and the growth your organization may need soon. All installed network components are horizontally scalable, so they would be relevant if the network needs to be extended soon."
+			},
+			{
+				"content": "Obviously, with an investment in your network design and installation, you'd want to make sure it is secure and always up and running. We have partnered with best in class vendors to provide managed firewall services and 24x7 network monitoring."
+			}
+		]
 	},
 	"obackup":
 	{
+		"abbr": "obackup",
 		"title": "Online backups",
 		"descriptionShort": ""
 	},
 	"internet":
 	{
+		"abbr": "internet",
 		"title": "Internet Connectivity",
-		"descriptionShort": "We have partnered with best in class vendors to provide you with hassle-free connectivity, allowing you get reliable and unlimited internet access"
+		"descriptionShort": "We have partnered with best in class vendors to provide you with hassle-free connectivity, allowing you get reliable and unlimited internet access",
+		"paras":
+		[
+			{
+				"header": "Circuits (Connectivity Speeds)",
+				"content": "We have partnered with best in class vendors to provide you with hassle-free connectivity, allowing you get reliable and unlimited internet access."
+			},
+			{
+				"content": "The hallmark of our Internet Access solutions is that they use a completely private IP network, not a public internet connection, ensuring you the most reliable service with all the security that you need. We deliver your data solution over a smart connection that dynamically allocates and prioritizes data services. A 24x7 team of engineers are always maintaining the integrity of your connections for you."
+			},
+			{
+				"header": "Circuit Redundancy (Auto-Failover)",
+				"content": "With managed auto-failover services, we can setup redundant connections for you so that you will never lose any productivity time."
+			}
+		]
 	},
 	"office":
 	{
+		"abbr": "office",
 		"title": "Office Collaboration Package",
-		"descriptionShort": "We can provide secure, anywhere access to email and calendars, Office Web Apps, web conferencing, and file sharing. "
+		"descriptionShort": "We can provide secure, anywhere access to email and calendars, Office Web Apps, web conferencing, and file sharing.",
+		"paras":
+		[
+			{
+				"content": "We can provide secure, anywhere access to email and calendars, Office Web Apps, web conferencing, and file sharing. Our expertise with these Microsoft cloud-based services will help you eliminate heavy upfront investment in hardware and licensing, while still giving you the following benefits:"
+			},
+			{	
+				"type": "list",
+				"listContent":
+				[
+					"Easy to setup and use (for new mail implementations, or for migrations from current mail platform). Everyone gets a standard 25 GB mailbox, and mail archival options are available. Access your email and calendars from your computer (Outlook), the web or mobile device.",
+					"No learning curve – Microsoft Office Applications have been the De facto standard for office software for years. With these applications hosted in the cloud, you can view and edit them from anywhere.",
+					"Managed IT Services – We take care of your new mail setups and ongoing account creations and work with Microsoft to troubleshoot your issues. Your mail comes with free add-ons such as anti-virus and spam fighting technologies. And, you can count on financially backed 99.9% uptime guarantee.",
+					"FREE mobile device support – If you have a Blackberry, an iPhone or an Android, we can setup your devices to access your mail on the go. (Blackberry integration provided by B.E.S. server)",
+					"Web Conferencing and Instant Messaging – Video conferencing, Instant Messaging (in network) and live desktop sharing",
+					"File sharing – Create an intranet site, share files/schedules with team members and customers and build and publish a website for your business"
+				]
+			},
+			{
+				"content": "With plans available from $5/month/user for a simple mailbox (A. above) to $16/month/user for the entire suite (A. – F. above), there is no doubt we will be able to find the right combination for you."
+			}
+		]
 	},
 	"phone":
 	{
+		"abbr": "phone",
 		"title": "VoIP",
-		"descriptionShort": "With our technology partnerships, you'd be able to leverage voice over IP services and features not generally available to small organizations."
+		"descriptionShort": "With our technology partnerships, you'd be able to leverage voice over IP services and features not generally available to small organizations.",
+		"paras":
+		[
+			{
+				"content": "With our technology partnerships, you'd be able to leverage voice over IP services and features not generally available to small organizations. We have the ability to provide you with a world class telecommunication system without the cost, hassle, and limitations of traditional systems."
+			}
+		]
 	}
 }

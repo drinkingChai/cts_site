@@ -1,9 +1,8 @@
-app.controller('HomeController', ['$scope', 'featurePreviewContent', function($scope, featurePreviewContent) {
-	featurePreviewContent.success(function(data) {
+app.controller('HomeController', ['$scope', 'servicesContent', function($scope, servicesContent) {
+	servicesContent.success(function(data) {
 		$scope.data = data;
 		$scope.erate = $scope.data.erate;
 		$scope.network = $scope.data.network;
-		$scope.msp = $scope.data.msp;
-		$scope.backups = $scope.data.backups;
+		$scope.mip = $scope.data.mip;
 	});
 }]);

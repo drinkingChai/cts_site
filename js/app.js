@@ -12,6 +12,10 @@ app.config(function($routeProvider) {
 		controller: 'ServicesController',
 		templateUrl: 'views/services.html'
 	})
+	.when('/services/:servicename', {
+		controller: 'ServicesDetailController',
+		templateUrl: 'views/servicesdetail.html'
+	})
 	.otherwise({
 		redirectTo: '/'
 	});
