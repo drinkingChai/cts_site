@@ -28,6 +28,10 @@ app.config(function($routeProvider) {
 		controller: 'ContactController',
 		templateUrl: 'views/contact.html'
 	})
+	.when('/eval', {
+		controller: 'ContactController',
+		templateUrl: 'views/evaluation.html'
+	})
 	.otherwise({
 		redirectTo: '/'
 	});
