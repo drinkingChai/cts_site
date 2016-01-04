@@ -1,7 +1,5 @@
 var app = angular.module('CTSsite', ['ngRoute']);
 
-app.controller('HomeController', function() {})
-
 app.config(function($routeProvider) {
 	$routeProvider
 	.when('/', {
